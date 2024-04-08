@@ -61,10 +61,13 @@ const SecSatu = () => {
         <h1 className="flex flex-col md:text-9xl text-8xl font-bold gap-0 text-color-text2">
           space <span className=" text-color-text">shirt</span>
         </h1>
-        <p className="flex flex-col text-sm items-center md:items-start">
-          comfortable products orea ted by highly skilled
+        <p className="flex flex-col md:text-sm text-lg items-center md:items-start">
+          <span className="flex flex-col md:flex-row justify-center items-center">
+            comfortable products orea ted <span> by highly skilled</span>
+          </span>
           <span>craftsman in each of our products</span>
         </p>
+
         <div className="flex gap-2 mt-4">
           <button className="btn rounded-full px-8 min-h-2 h-10 uppercase bg-color-secondary hover:bg-color-text hover:text-color-primary">
             best sellers
