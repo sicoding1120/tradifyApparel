@@ -56,7 +56,7 @@ const popular = () => {
           <p className="font-semibold uppercase text-2xl">pants</p>
         </div>
       </div>
-      <div className="w-full h-2/4 flex flex-col md:flex-row justify-between items-center">
+      <div className="w-full h-2/4 flex  gap-4 flex-col md:flex-row justify-between items-center">
         {TShirtComponents.map((item,index) => {
           return item.data.tShirt.map((item) => (
             <div key={index} className=" bg-opacity-20 bg-white bg-blur-md backdrop-blur-md backdrop-filter p-8 rounded-3xl hover:shadow-lg hover:scale-110 transition-all w-[300px] h-[400px] shadow-sm border-2 border-white/20 flex flex-col justify-between items-center">
