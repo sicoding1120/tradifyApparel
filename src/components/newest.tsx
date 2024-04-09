@@ -16,7 +16,7 @@ const newsest = () => {
 
 const ThirdtyTopic = () => {
   return (
-    <div className="md:w-1/3 w-full md:h-full h-[500px] md:py-24">
+    <div className="md:w-1/3 w-full md:h-full h-[400px] md:py-24">
       <div className="w-full md:h-2/3 h-full flex justify-center items-center relative">
         <Image
           src={"/ba-2.jpeg"}
@@ -26,10 +26,10 @@ const ThirdtyTopic = () => {
           className="w-full h-full absolute rounded-3xl"
         />
         <div className="flex flex-row-reverse justify-start items-center w-full px-4">
-          <div className="rounded-full p-4 w-[60px] h-[60px] bg-white flex justify-center items-center transition-all cursor-pointer relative hover:scale-125 md:top-[120px] top-[200px]">
+          <div className="rounded-full p-4 w-[60px] h-[60px] bg-white flex justify-center items-center transition-all cursor-pointer relative hover:scale-125 md:top-[120px] top-[160px]">
             <FiShoppingCart size={18} className="" />
           </div>
-          <div className="relative flex justify-center items-center px-5 py-4 rounded-xl bg-white right-24 md:top-[165px] top-[240px] md:right-0">
+          <div className="relative flex justify-center items-center px-5 py-4 rounded-xl bg-white right-24 md:top-[165px] top-[190px] md:right-0">
             <p className="uppercase font-semibold text-md">t-shirt</p>
           </div>
         </div>
@@ -63,9 +63,9 @@ const SecondTopic = () => {
 }
 const FirstTopic = () => {
   return (
-    <div className="flex flex-col md:w-1/3 w-full md:h-full h-[500px] justify-between items-center md:gap-10 gap-24 md:py-14 md:mb-0 mb-14">
+    <div className="flex flex-col md:w-1/3 w-full md:h-full h-[500px] justify-between items-center md:gap-10 gap-4 md:py-14 md:mb-0 mb-14">
       <div className="w-full md:h-2/5 h-full flex">
-        <h2 className="text-5xl uppercase font-semibold">
+        <h2 className="text-5xl uppercase font-semibold md:text-start text-center">
           our newest <span>product</span>
         </h2>
       </div>
