@@ -67,7 +67,6 @@ const SecSatu = () => {
           </span>
           <span>craftsman in each of our products</span>
         </p>
-
         <div className="flex gap-2 mt-4">
           <button className="btn rounded-full px-8 min-h-2 h-10 uppercase bg-color-secondary hover:bg-color-text hover:text-color-primary">
             best sellers
